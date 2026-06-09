@@ -127,7 +127,7 @@ def db_save_packages(packages):
 
 # Bot Token ကို Render Environment Variable မှ ဖတ်မည် (လုံခြုံရေးအတွက်)
 # Render မှာ Setup လုပ်ရင် Variable Name ကို BOT_TOKEN လို့ ပေးရပါမယ်။
-TOKEN = os.environ.get("BOT_TOKEN", "8724005419:AAH2HPdjlJ2ZcdzkLdMpcJWEaDuQhWg4ls4")
+TOKEN = os.environ.get("BOT_TOKEN", "8125893106:AAHBIJ-WkZeMGJ1HSsWIkBRzcyvr0lsCAAU")
 bot = telebot.TeleBot(TOKEN)
 
 ADMIN_LIST = [7592705124]  
